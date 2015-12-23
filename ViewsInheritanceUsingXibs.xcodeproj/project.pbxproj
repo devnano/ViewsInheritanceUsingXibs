@@ -12,6 +12,10 @@
 		DA7960481C2B34DE000AC009 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7960461C2B34DE000AC009 /* Main.storyboard */; };
 		DA79604A1C2B34DE000AC009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7960491C2B34DE000AC009 /* Assets.xcassets */; };
 		DA79604D1C2B34DE000AC009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA79604B1C2B34DE000AC009 /* LaunchScreen.storyboard */; };
+		DA7960551C2B351B000AC009 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7960541C2B351B000AC009 /* Views.swift */; };
+		DA7960571C2B35BD000AC009 /* AView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7960561C2B35BD000AC009 /* AView.xib */; };
+		DA7960591C2B42AF000AC009 /* BView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7960581C2B42AF000AC009 /* BView.xib */; };
+		DA79605B1C2B47F5000AC009 /* CView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA79605A1C2B47F5000AC009 /* CView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		DA7960491C2B34DE000AC009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA79604C1C2B34DE000AC009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA79604E1C2B34DE000AC009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7960541C2B351B000AC009 /* Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		DA7960561C2B35BD000AC009 /* AView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AView.xib; sourceTree = "<group>"; };
+		DA7960581C2B42AF000AC009 /* BView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BView.xib; sourceTree = "<group>"; };
+		DA79605A1C2B47F5000AC009 /* CView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				DA7960491C2B34DE000AC009 /* Assets.xcassets */,
 				DA79604B1C2B34DE000AC009 /* LaunchScreen.storyboard */,
 				DA79604E1C2B34DE000AC009 /* Info.plist */,
+				DA7960541C2B351B000AC009 /* Views.swift */,
+				DA7960561C2B35BD000AC009 /* AView.xib */,
+				DA7960581C2B42AF000AC009 /* BView.xib */,
+				DA79605A1C2B47F5000AC009 /* CView.xib */,
 			);
 			path = ViewsInheritanceUsingXibs;
 			sourceTree = "<group>";
@@ -124,7 +136,10 @@
 			files = (
 				DA79604D1C2B34DE000AC009 /* LaunchScreen.storyboard in Resources */,
 				DA79604A1C2B34DE000AC009 /* Assets.xcassets in Resources */,
+				DA79605B1C2B47F5000AC009 /* CView.xib in Resources */,
+				DA7960571C2B35BD000AC009 /* AView.xib in Resources */,
 				DA7960481C2B34DE000AC009 /* Main.storyboard in Resources */,
+				DA7960591C2B42AF000AC009 /* BView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +152,7 @@
 			files = (
 				DA7960451C2B34DE000AC009 /* ViewController.swift in Sources */,
 				DA7960431C2B34DE000AC009 /* AppDelegate.swift in Sources */,
+				DA7960551C2B351B000AC009 /* Views.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
