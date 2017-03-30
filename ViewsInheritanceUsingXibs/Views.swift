@@ -20,19 +20,19 @@ class AView : UIView {
     }
     
     func addContainerView() {
-        NSBundle.mainBundle().loadNibNamed(xibName(), owner: self, options: nil)
+        Bundle.main.loadNibNamed(xibName(), owner: self, options: nil)
         addSubview(containerView)
         containerView.translatesAutoresizingMaskIntoConstraints = false
         self.translatesAutoresizingMaskIntoConstraints = false
         var allConstraints = [NSLayoutConstraint]()
         
-        let verticalConstraints = NSLayoutConstraint.constraintsWithVisualFormat("V:|[containerView]|", options: [], metrics: nil, views: ["containerView":containerView])
-        let horizontalConstraints = NSLayoutConstraint.constraintsWithVisualFormat("H:|[containerView]|", options: [], metrics: nil, views: ["containerView":containerView])
+        let verticalConstraints = NSLayoutConstraint.constraints(withVisualFormat: "V:|[containerView]|", options: [], metrics: nil, views: ["containerView":containerView])
+        let horizontalConstraints = NSLayoutConstraint.constraints(withVisualFormat: "H:|[containerView]|", options: [], metrics: nil, views: ["containerView":containerView])
         
         allConstraints += verticalConstraints
         allConstraints += horizontalConstraints
         
-        NSLayoutConstraint.activateConstraints(allConstraints)
+        NSLayoutConstraint.activate(allConstraints)
 
         titleLabel.text = xibName()
     }
